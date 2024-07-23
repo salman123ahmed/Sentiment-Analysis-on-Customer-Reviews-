@@ -3,20 +3,8 @@
 
 ### Project Description:
 
-1. Develop a text classifier for a kind of text of your choice (e.g., e-mail messages, tweets,
+Develop a text classifier for a kind of text of your choice (e.g., e-mail messages, tweets,
 customer reviews) and at least two classes (e.g., spam/ham, positive/negative/neutral)*.
-2. You may use Boolean, TF, or TF-IDF features corresponding to words or n-grams, to which you
-can also add other features (e.g., length of the text). You may apply any feature selection (or
-dimensionality reduction) method you consider appropriate. You may also want to try using
-centroids of pre-trained word embeddings.
-3. You can write your code to produce feature vectors, perform feature selection (or dimensionality reduction)
-and train the classifier, or you can use existing implementations and software libraries.
-4. You should experiment with at least logistic regression, and optionally other learning algorithms 
-(e.g., Naive Bayes, k-NN, SVM). Draw learning curves with appropriate measures (e.g., accuracy, F1)
-and precision-recall curves. Include experimental results of appropriate baselines
-(e.g., majority classifiers). Make sure that you use separate training and test data. Tune the
-feature set and hyper-parameters (e.g., regularization weight λ) on a held-out part of the
-training data or use cross-validation on the training data.
 
 * For e-mail spam filtering, you may want to use the Ling-Spam or Enron-Spam datasets (available
 from http://nlp.cs.aueb.gr/software.html). For tweets, you may want to use datasets from
